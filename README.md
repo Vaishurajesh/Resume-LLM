@@ -27,9 +27,7 @@ resume-intelligence-llm/
     ├── resume_parser.py                ← core inference engine
     ├── app.py                         ← FastAPI REST API
     ├── cli.py                         ← command-line interface
-    ├── requirements.txt
-    └── README.md                      ← setup & usage instructions
-```
+    
 
 ## Summary
 
