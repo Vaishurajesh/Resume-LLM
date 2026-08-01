@@ -18,11 +18,10 @@ resume-intelligence-llm/
 │   └── README.md                      ← dataset notes + scaling strategy
 ├── training/
 │   ├── Resume_LLM_FineTuning.ipynb    ← Part 3: LoRA fine-tuning notebook (Colab, T4 GPU)
-│   └── resume-lora-adapter/           ← trained LoRA adapter weights
+│          ← trained LoRA adapter weights
 ├── evaluation/
 │   ├── eval_framework.md              ← Part 4: evaluation methodology
-│   ├── evaluate.py                    ← automated evaluation script
-│   └── eval_report.json               ← sample evaluation output (optional)
+│   ├── evaluate.py                    ← automated evaluation script              ← sample evaluation output (optional)
 └── inference/
     ├── config.py                      ← Part 5: configuration management
     ├── resume_parser.py                ← core inference engine
